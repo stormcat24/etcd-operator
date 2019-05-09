@@ -1,0 +1,10 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: etcd-operator
+spec:
+  template:
+    spec:
+      securityContext:
+        runAsUser: 1000
+        fsGroup: 1000

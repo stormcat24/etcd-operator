@@ -1,0 +1,6 @@
+bases:
+# - ../rbac/cluster-role
+- ../rbac/role  
+
+resources:
+- deployment.yaml
